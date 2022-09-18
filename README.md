@@ -5,6 +5,8 @@ Take a test
 ## See what happens
 ```bash
 cd catkin_ws/src
+git clone https://github.com/kim3957/ldm_test_gwangju.git
+../
 catkin_make
 rosrun test pub
 ```
