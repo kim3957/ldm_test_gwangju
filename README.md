@@ -11,3 +11,7 @@ catkin_make
 rosrun test pub
 rosrun test recv
 ```
+## For recving intersection informations
+```
+rostopic echo LDM_data
+```
