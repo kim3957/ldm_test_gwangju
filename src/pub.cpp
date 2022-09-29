@@ -73,10 +73,10 @@ int main(int argc, char **argv)
 		    system("clear");
         //명령행 인자 입력: 차량ID, 경도(deg), 위도(deg), 방향(deg), 속도(km/h)
 		char *vehicleId = "S001";
-		int lon = (int)(atof("126.8471154") * 1e7);
-    	int lat = (int)(atof("35.2249915") * 1e7);
+		int lon = (int)(atof("126.7689888") * 1e7);
+		int lat = (int)(atof("35.1218840") * 1e7);
 		int heading = atoi("50");
-    	int speed = atoi("50");
+		int speed = atoi("50");
 
 		//라이브러리 초기화: 차량ID와 차량종류 설정
 		int retVal;
